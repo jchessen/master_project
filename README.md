@@ -1,5 +1,5 @@
 # master_project
-Repository containing code developed during the master project. The data products used in the thesis are available in the links below. Our processed results based on these dataproducts are in the results-folder, along with scripts for plotting the results.
+Repository containing code developed during the master project. The data products used in the thesis are available in the links below. Our processed results based on these data products are in the results-folder, along with scripts for plotting the results.
 
 I acknowledge the following agencies and institutions for providing data crucial for the research in this thesis:
 
