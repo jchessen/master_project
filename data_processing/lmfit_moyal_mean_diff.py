@@ -228,7 +228,7 @@ fit_params.add('loc', value=100, min=-500, max=500)
 fit_params.add('scale', value=100, min=0, max=600)
 
 #Performs fitting for every bin above 60 MLAT
-pix = list(map(pixelator, [binned.get_group([i]).lbhs.values for i in range(1030,2413)]))
+pix = list(map(separation_function, [binned.get_group([i]).lbhs.values for i in range(1030,2413)]))
 pix_1 = list(map(mean_, [binned.get_group([i]).lbhs.values for i in range(1030,2413)]))
 nans = [np.nan for i in range(0,1030)]
 
